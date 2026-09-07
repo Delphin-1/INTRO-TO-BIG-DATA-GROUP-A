@@ -278,6 +278,6 @@ This assignment provided a good foundation for future topics in **Big Data Analy
 
 **Course:** Introduction to Big Data Analytics
 **Assignment:** Week 1 Lab — Python Foundations
-**Institution:** African Leadership University / AUCA
+**Institution:** Adentist Uni / AUCA
 **Week:** 1
 
