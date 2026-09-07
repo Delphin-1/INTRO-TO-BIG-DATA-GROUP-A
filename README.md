@@ -33,9 +33,9 @@
 In the first part of the assignment, I created four variables describing myself:
 
 ```python
-my_name = "Alex"
-my_age = 20
-my_gpa = 3.7
+my_name = "Aimable"
+my_age = 24
+my_gpa = 3.4
 am_i_present = True
 ```
 
