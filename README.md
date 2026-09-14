@@ -40,7 +40,7 @@ print("Hello, Big Data!")
 
 
 
-![Part 0 - Hello Big Data](screenshots/part0.png)
+![Part 0 - Hello Big Data](Screenshots/part0.png)
 
 ---
 
@@ -60,7 +60,7 @@ I then printed each variable together with its Python data type.
 ### Screenshot
 
 
-![Exercise 1.1](screenshots/Part1a.png)
+![Exercise 1.1](Screenshots/Part1a.png)
 
 ---
 
@@ -90,7 +90,7 @@ The result was `34` instead of `7` because the values are strings. Python joins 
 ### Screenshot
 
 
-![Exercise 1.3](screenshots/Part1b.png)
+![Exercise 1.3](Screenshots/Part1b.png)
 
 ---
 
@@ -127,7 +127,7 @@ I practiced:
 ### Screenshot
 
 
-![Exercise 2.2](screenshots/Part2.png)
+![Exercise 2.2](Screenshots/Part2.png)
 
 ---
 
@@ -162,7 +162,7 @@ min()
 ### Screenshot
 
 
-![Exercise 3.1](screenshots/Part3a.png)
+![Exercise 3.1](Screenshots/Part3a.png)
 
 ---
 
@@ -180,7 +180,7 @@ This helped me understand that Python lists can be changed after they are create
 ### Screenshot
 
 
-![Exercise 3.2](screenshots/Part3b.png)
+![Exercise 3.2](Screenshots/Part3b.png)
 
 ---
 
@@ -201,7 +201,7 @@ I then accessed and printed my program using:
 me["program"]
 ```
 
-![Exercise 4.1](screenshots/exercise4_1.png)
+![Exercise 4.1](Screenshots/exercise4_1.png)
 
 ---
 
@@ -220,7 +220,7 @@ This helped me understand how dictionaries can store labeled information and be 
 
 
 
-![Exercise 4.2](screenshots/Part4.png)
+![Exercise 4.2](Screenshots/Part4.png)
 
 ---
 
@@ -243,15 +243,15 @@ I used the provided dataset and analyzed it using Python lists and dictionaries.
 
 ### Connecting to google drive 
 
-   ![Exercise 5](screenshots/Part5connecttoGoogledrive.png)
+   ![Exercise 5](Screenshots/Part5connecttoGoogledrive.png)
    
 ### Importing csv
 
-![Exercise 5](screenshots/Part5ImportingCSV.png)
+![Exercise 5](Screenshots/Part5ImportingCSV.png)
 
 ### Renaming columns to matchs teachers naming
 
-![Exercise 5](screenshots/Part5renamingColumn.png)
+![Exercise 5](Screenshots/Part5renamingColumn.png)
 
 ---
 
@@ -283,9 +283,8 @@ NAME from DISTRICT studies PROGRAM and scored SCORE.
 
 ### Screenshot
 
-<!-- Add your Part 5.2 screenshot below -->
 
-![Exercise 5.2](screenshots/Part5a.png)
+![Exercise 5.2](Screenshots/Part5a.png)
 
 ---
 
@@ -301,9 +300,8 @@ I used the `.count()` method to find how many times each district appeared in th
 
 ### Screenshot
 
-<!-- Add your Part 5.3 screenshot below -->
 
-![Exercise 5.3](screenshots/Part5b.png)
+![Exercise 5.3](Screenshots/Part5b.png)
 
 ---
 
@@ -337,13 +335,13 @@ I also completed the bonus challenge by finding the student with the lowest scor
 
 <!-- Add your Part 5.4 screenshot below -->
 
-![Exercise 5.4](screenshots/Part5c.png)
+![Exercise 5.4](Screenshots/Part5c.png)
 
 ---
 
 # Part 6 – Reflection
 
-##1.Is this 20-student dataset Big Data? Which of the 5 V's does it clearly not have yet? Explain briefly
+## 1.Is this 20-student dataset Big Data? Which of the 5 V's does it clearly not have yet? Explain briefly
 
 No, this 20-student dataset is not Big Data. It is a small dataset because it contains only 20 records and can easily be stored, processed, and analyzed using a normal computer and Python.
 
@@ -351,13 +349,9 @@ The 5 V's of Big Data are Volume, Velocity, Variety, Veracity, and Value. This d
 
 Therefore, this dataset is useful for learning data analysis, but it is not Big Data because it lacks the large scale and complexity normally associated with Big Data.
 
-##2.Describe one thing from today's session that surprised or confused you
+## 2.Describe one thing from today's session that surprised or confused you
 
 One thing that surprised me during today's session was how we used a CSV file and converted its data into a form that could be easily used and analyzed by Python in Google Colab. I was also surprised by how easily Python can manipulate data, such as selecting specific information, calculating averages, finding the highest and lowest scores, and organizing data using lists and dictionaries. As someone studying Python for the first time, I found it interesting that a small amount of code can perform operations on many records at once. I was also surprised by how lists, dictionaries, and functions can work together to make data analysis easier. This helped me understand that Python is not only used for writing programs but can also be very useful for working with and analyzing real-world data.
----
-
-
-```
 
 ---
 
