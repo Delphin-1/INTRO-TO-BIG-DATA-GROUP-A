@@ -354,10 +354,13 @@ One thing that surprised me during today's session was how we used a CSV file an
 
 # Author
 
-**Olivier Irembere 28392**
-INTRO-TO-BIG-DATA-GROUP-A
-Software Engineering
-AUCA
+->*Olivier Irembere 28392*,
+
+->*INTRO-TO-BIG-DATA-GROUP-A*,
+
+->*Software Engineering*,
+
+->*AUCA*
 
 ---
 
