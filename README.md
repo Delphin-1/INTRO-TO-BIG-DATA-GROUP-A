@@ -40,7 +40,7 @@ print("Hello, Big Data!")
 
 
 
-![Part 0 - Hello Big Data](Screenshoots/part0.png)
+![Part 0 - Hello Big Data](Screenshoots/Part0.png)
 
 ---
 
@@ -200,9 +200,6 @@ I then accessed and printed my program using:
 ```python
 me["program"]
 ```
-
-![Exercise 4.1](Screenshoots/exercise4_1.png)
-
 ---
 
 ## Exercise 4.2 – Updating and Extending a Dictionary
