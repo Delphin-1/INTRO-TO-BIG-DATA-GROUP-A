@@ -1,10 +1,47 @@
+# Week 3 Lab — Control Flow & Functions
 
-<img width="511" height="811" alt="Image" src="https://github.com/user-attachments/assets/20c402cc-59b5-4304-9035-920c8935e14d" />
-<img width="482" height="339" alt="Image" src="https://github.com/user-attachments/assets/6b9db231-c4a0-46b4-8994-ac483f410d7a" />
-<img width="526" height="405" alt="Image" src="https://github.com/user-attachments/assets/636f8b4a-bd3d-41e8-a76d-78857e9e3262" />
-<img width="512" height="379" alt="Image" src="https://github.com/user-attachments/assets/fc0b5b8d-dabb-4614-8a09-df95b6374c78" />
-<img width="837" height="362" alt="Image" src="https://github.com/user-attachments/assets/8f6b861e-b973-4fdb-b789-6632fde5e9be" />
-<img width="857" height="331" alt="Image" src="https://github.com/user-attachments/assets/a598d51d-465e-4f31-8b9c-4f3d7dd5b63b" />
-<img width="759" height="219" alt="Image" src="https://github.com/user-attachments/assets/a8dcb1c1-25c5-4e89-832f-88697ef55229" />
-<img width="819" height="254" alt="Image" src="https://github.com/user-attachments/assets/ccb81e59-ab57-4c9b-85c0-68fc24d2207e" />
+## Student
+**Nwogu Amarachi Jennifer**
 
+## Student ID
+**27452**
+
+## Course
+Introduction to Big Data Analytics
+
+## Week
+Week 3
+
+## Topic
+Control Flow & Functions
+
+## Description
+This project contains the Week 3 lab exercises on Python control flow, loops, functions, file handling, CSV processing, and exception handling.
+
+## Files
+
+- `Week3_Jennifer.ipynb` — Completed Jupyter Notebook
+- `week3_students.csv` — Student dataset used for the lab
+- `week3_report.txt` — Generated student report
+- `Week3_Jennifer_Lab_Report.pdf` — Lab report containing screenshots
+
+## Results
+
+- Valid scores: 37
+- Bad scores: 3
+- Average score: 78.7
+- Passed: 35
+- Failed: 2
+- Top student: Bonaventure Nkurunziza
+- Top score: 95
+- Top grade: A
+
+## Broken Records
+
+The three invalid score records were:
+
+- AUCA008 — N/A
+- AUCA020 — Blank score
+- AUCA032 — absent
+
+The program used `try/except` to handle the invalid scores without stopping the data processing.
