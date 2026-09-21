@@ -1,0 +1,356 @@
+ AUCA — Introduction to Big Data Analytics
+
+ Week 1 Lab — Python Foundations
+
+Instructor: Prince Ishimwe
+Email: [Prince.ishimwe@auca.ac.rw](mailto:Prince.ishimwe@auca.ac.rw)
+Total: 35 marks (+3 bonus)
+Due: End of Week 1
+name: Ntagayisha Bienfait 29025
+
+
+
+ 
+
+
+Part 0 — Warm-Up
+
+Not graded
+
+Create a new notebook, rename it `Week1_YourName`, and run:
+python
+print("Hello, Big Data!")
+
+
+ 
+
+ Part 1 — Variables & Data Types
+
+ 
+
+ Exercise 1.1 — Variables
+ 
+
+Create four variables about yourself:
+
+`my_name` — `str`
+ `my_age` — `int`
+ `my_gpa` — `float` — invent one
+`am_i_present` — `bool`
+
+Print each variable together with its type.
+
+ 
+
+Exercise 1.2 — Type Conversion
+
+
+
+Starting from:
+ 
+
+Convert the value to an `int`, add `1` (a birthday), and print the result.
+
+
+
+ Question 1.3 — Think About It
+
+
+
+What does the following produce?
+
+```python
+"3" + "4"
+```
+
+Run it, then explain in one sentence why the answer is not `7`.
+
+
+
+Part 2 — Strings: Working with Text
+
+
+
+ Exercise 2.1 — f-Strings
+
+ 
+
+Using your variables from Exercise 1.1, print the following sentence with one f-string:
+
+```text
+I am NAME, AGE years old, studying at AUCA.
+```
+
+Reminder:
+
+```python
+f"Hello {my_name}"
+```
+
+Variables go inside `{ }`.
+
+---
+
+## Exercise 2.2 — String Tools
+
+
+
+Given:
+
+```python
+course = "Big Data Analytics"
+```
+
+Print:
+
+1. The course name in **UPPERCASE**
+2. The number of characters it contains
+3. Only the first 3 characters
+
+ 
+
+---
+
+ Part 3 — Lists: Your First Descriptive Statistics
+
+ 
+
+ Exercise 3.1
+
+
+
+The quiz scores of your 5-person study group are:
+
+```python
+scores = [72, 85, 91, 64, 78]
+```
+
+Print:
+
+1. The first score
+2. The last score
+3. The number of scores
+4. The average
+5. The highest score
+6. The lowest score
+
+
+
+---
+
+ Exercise 3.2 — Lists Change
+
+ 
+
+A new member joins with a score of `88`, and you discover the 4th score, at position `3`, should be `66`, not `64`.
+
+Do the following:
+
+1. Append `88` to the list.
+2. Replace position `3` with `66`.
+3. Print the updated list.
+4. Print its new average.
+
+---
+
+ Part 4 — Dictionaries: Labeled Data
+
+ 
+
+  Exercise 4.1
+
+**2 marks**
+
+Build a dictionary called `me` describing yourself with the following keys:
+
+```text
+"name"
+"age"
+"program"
+"district"
+```
+
+Print your program using:
+
+```python
+me["program"]
+```
+
+---
+
+ Exercise 4.2 — Update and Extend
+ 
+
+1. Add a new key `"score"` with a value of your choice.
+2. Increase `"age"` by `1`.
+3. Print all the keys using:
+
+```python
+me.keys()
+```
+
+4. Print the whole dictionary.
+
+---
+
+ Part 5 — Class Dataset Analysis
+
+ 
+
+Analyze the dataset containing 20 AUCA students.
+
+The dataset is provided in:
+
+```text
+week1_students.csv
+```
+
+The notebook also provides a ready-to-run Python list called:
+
+```python
+students
+```
+
+The notebook provides the following column lists:
+
+```python
+names = [s["name"] for s in students]
+
+all_scores = [s["score"] for s in students]
+
+districts = [s["district"] for s in students]
+```
+
+---
+
+ Exercise 5.1 — Describe the Class
+
+
+
+Using f-strings, print:
+
+1. How many students are in the dataset.
+2. The class average score rounded to 1 decimal.
+3. The highest score.
+4. The lowest score.
+5. The range, calculated as:
+
+```text
+highest score - lowest score
+```
+
+Use:
+
+```python
+round(..., 1)
+```
+
+---
+
+ Exercise 5.2 — Inspect Individual Records
+
+ 
+
+ (a)
+
+Print the full record of:
+
+ The first student
+ The last student
+
+ (b)
+
+For the student at **position 6**, print one f-string sentence:
+
+```text
+NAME from DISTRICT studies PROGRAM and scored SCORE.
+```
+
+---
+
+ Exercise 5.3 — Count by Category
+
+ 
+Lists have a built-in counter:
+
+```python
+districts.count("Gasabo")
+```
+
+Print how many students come from:
+
+1. Gasabo
+2. Kicukiro
+3. One other district of your choice
+
+---
+
+Exercise 5.4 — Stretch Goal: Who Is the Top Student?
+
+3 marks + 3 bonus
+
+Without using a loop, print:
+
+```text
+The top student is NAME with a score of SCORE.
+```
+
+Use:
+
+```python
+max(all_scores)
+```
+
+to find the best score.
+
+Then use:
+
+```python
+all_scores.index(...)
+```
+
+to find its position.
+
+Finally, use:
+
+```python
+names[position]
+```
+
+to find the student's name.
+
+ Bonus — 3 marks
+
+Do the same for the lowest score.
+
+Print the attendance of both:
+
+ The highest-scoring student
+ The lowest-scoring student
+
+---
+
+# Part 6 — Reflection
+
+**Required**
+
+## Question 1
+
+Is this 20-student dataset **Big Data**?
+
+Which of the **5 V's** does it clearly not have yet?
+
+Explain briefly.
+
+---
+
+ Question 2
+
+Describe one thing from today's session that surprised or confused you.
+
+---
+
+ 
+
+**Reflection and submission checklist are required for grading.**
+  
