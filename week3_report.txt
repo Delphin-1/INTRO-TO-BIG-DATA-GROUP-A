@@ -1,0 +1,11 @@
+WEEK 3 STUDENT REPORT
+=====================
+Valid scores: 37
+Bad scores: 3
+Average score: 78.7
+Bad IDs: ['AUCA008', 'AUCA020', 'AUCA032']
+Passed: 35
+Failed: 2
+Top student: Bonaventure Nkurunziza
+Top score: 95
+Top grade: A
