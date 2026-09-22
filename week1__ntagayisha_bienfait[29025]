@@ -1,3 +1,7 @@
+my name is Ntagayisha Bienfait 29025
+
+
+
 {
  "cells": [
   {
@@ -8,6 +12,8 @@
     "# Week 1 Lab - Python Foundations\n"
    ]
   },
+
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\1.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "cfe5c2e7-cba4-4773-9247-47eddc8f7d77",
@@ -26,6 +32,7 @@
     "PARTO-Warm-up"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\2.png" alt="footer">
   {
    "cell_type": "code",
    "execution_count": 3,
@@ -40,10 +47,12 @@
      ]
     }
    ],
+
    "source": [
     "print(\"Hello, Big Data!\")"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\1.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "cd7627c0-9f36-458f-bfa5-2ccdcb508ed4",
@@ -77,6 +86,7 @@
      ]
     }
    ],
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\2.png" alt="footer">
    "source": [
     "my_name = \"Ntagayisha Bienfait\"\n",
     "my_age = 21\n",
@@ -89,6 +99,7 @@
     "print(am_i_present, type(am_i_present))"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\3.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "a815f11f-4913-4783-9ac9-39bca73c6a33",
@@ -174,7 +185,8 @@
    "source": [
     "2.1 — f-string:"
    ]
-  },
+  };
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\4.png" alt="footer">
   {
    "cell_type": "code",
    "execution_count": 11,
@@ -195,6 +207,7 @@
     "print(f\"I am {name}, {age} years old, studying at AUCA.\")"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\5.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "f467ccf0-9300-400b-aeaa-41466e401834",
@@ -226,6 +239,7 @@
     "print(course[0:3])        # Big\n"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\6.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "6e9b1af8-3b60-4e47-b513-a9d87fdb7d5f",
@@ -268,6 +282,7 @@
     "print(max(scores), min(scores))       # highest, lowest"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\7.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "46b70870-c53d-4843-bd40-8eef3eb515e3",
@@ -298,6 +313,7 @@
     "print(sum(scores) / len(scores))"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\8.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "f5e27e1c-b639-4f1e-8f9d-b74a28acb405",
@@ -332,6 +348,8 @@
     "print(me[\"program\"])"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\9.png" alt="footer">
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\10.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "b6452f2b-b941-4da0-8106-394dbf1e6602",
@@ -340,6 +358,8 @@
     "4.2 — update and extend"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\11.png" alt="footer">
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\12.png" alt="footer">
   {
    "cell_type": "code",
    "execution_count": 6,
@@ -355,6 +375,8 @@
      ]
     }
    ],
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\13.png" alt="footer">
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\14.png" alt="footer">
    "source": [
     "me[\"score\"] = 79\n",
     "me[\"age\"] += 1\n",
@@ -421,6 +443,7 @@
     "districts = [s[\"district\"] for s in students]"
    ]
   },
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\9.png" alt="footer">
   {
    "cell_type": "markdown",
    "id": "d866e687-3a1c-44a7-9fd5-5b477f5b70fa",
@@ -585,3 +608,16 @@
  "nbformat": 4,
  "nbformat_minor": 5
 }
+
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\all.png" alt="footer">
+ <img scr="c:\Users\done_well\Desktop\big data week1 img\all2.png" alt="footer">
+
+## 1. Is this 20-student dataset Big Data?
+
+No, this 20-student dataset is not Big Data. It is a small and structured dataset that can easily be processed using basic Python. It does not clearly demonstrate several of the 5 V's of Big Data, especially **Volume, Velocity, and Variety**. The dataset has a small amount of information, does not arrive continuously at high speed, and contains mostly structured data in a simple format.
+
+## 2. What surprised or confused me?
+
+One thing that surprised me was that `"3" + "4"` produces `"34"` instead of `7`. I learned that Python treats `"3"` and `"4"` as strings because they are inside quotation marks. Therefore, Python joins the two strings instead of performing mathematical addition. This helped me understand why data types are important when working with data.
+
+
