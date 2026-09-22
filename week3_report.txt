@@ -1,0 +1,11 @@
+WEEK 3 STUDENT REPORT
+=====================
+Valid scores: 10
+Bad scores: 0
+Average score: 73.4
+Bad IDs: []
+Passed: 0
+Failed: 0
+Top student: 
+Top score: -1
+Top grade: F
