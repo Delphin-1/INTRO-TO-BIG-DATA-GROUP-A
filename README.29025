@@ -1,0 +1,167 @@
+# Week 1 Lab — Python Foundations
+
+## Introduction to Big Data Analytics
+
+This repository contains my **Week 1 Python Foundations Lab** for the **Introduction to Big Data Analytics** course at **Adventist University of Central Africa (AUCA)**.
+
+The lab introduces the basic Python concepts needed for working with data and performing simple data analysis.
+
+## Student Information
+
+* **Name:** Ntagayisha Bienfait
+* **Student ID:** 29025
+* **Program:** Software Engineering
+* **University:** Adventist University of Central Africa (AUCA)
+* **Course:** Introduction to Big Data Analytics
+* **Week:** 1
+* **Lab:** Python Foundations
+
+## Learning Objectives
+
+In this lab, I practiced:
+
+* Python variables and data types
+* Type conversion
+* Strings and f-strings
+* String manipulation
+* Lists
+* Basic descriptive statistics
+* Dictionaries
+* Working with structured student data
+* Counting categories
+* Finding minimum and maximum values
+* Basic dataset analysis
+
+## Lab Structure
+
+### Part 0 — Warm-Up
+
+* Created a Jupyter/Google Colab notebook
+* Printed a simple Python message
+
+### Part 1 — Variables & Data Types
+
+* Created variables using:
+
+  * `str`
+  * `int`
+  * `float`
+  * `bool`
+* Checked variable types
+* Converted text into an integer
+* Practiced understanding strings and numbers
+1.png
+2.png
+3.png
+### Part 2 — Strings
+
+* Used f-strings
+* Converted text to uppercase
+* Counted characters
+* Used string slicing
+
+4.png
+4b.png
+5.png
+
+### Part 3 — Lists
+
+* Worked with a list of quiz scores
+* Accessed the first and last elements
+* Calculated:
+
+  * Average
+  * Maximum
+  * Minimum
+  * Number of values
+* Modified a list using `append()` and indexing
+6.png
+7.png
+
+### Part 4 — Dictionaries
+
+* Created a personal information dictionary
+* Accessed dictionary values
+* Added new information
+* Updated existing values
+* Displayed dictionary keys and contents
+7.png
+8.png
+
+### Part 5 — Class Dataset Analysis
+
+Analyzed a dataset containing **20 AUCA students**.
+
+The analysis included:
+
+* Number of students
+* Average score
+* Highest and lowest scores
+* Score range
+* Inspecting individual student records
+* Counting students by district
+* Identifying the top-scoring student
+* Identifying the lowest-scoring student
+9.png
+10.png
+11.png
+12.png
+13.png
+14.png
+15.png
+all.png
+allb.png
+
+### Part 6 — Reflection
+
+Reflected on:
+
+* Whether a 20-student dataset qualifies as Big Data
+* The **5 V's of Big Data**
+* One thing learned, surprised by, or found confusing during the session
+
+## Technologies Used
+
+* Python
+* Jupyter Notebook / Google Colab
+* Git
+* GitHub
+
+## Files
+
+```text
+Week1_YourName/
+│
+├── Week1_ntagayisha.ipynb
+├── week1_students.csv
+└── README.md
+```
+
+## Key Python Concepts Practiced
+
+```python
+type()
+int()
+float()
+str()
+bool()
+
+.upper()
+len()
+sum()
+max()
+min()
+round()
+
+append()
+count()
+index()
+
+.keys()
+```
+
+## Author
+
+**Ntagayisha Bienfait**
+Student ID: **29025**
+AUCA — Software Engineering
