@@ -1,0 +1,6 @@
+Week 3 Student Report
+Total students: 40
+Valid records: 37
+Bad records: 3 ['AUCA008', 'AUCA020', 'AUCA032']
+Average score (valid only): 75.3
+Top student: Bonaventure Nkurunziza (95, grade A)
