@@ -1,0 +1,21 @@
+ID,Name,Age,Gender,Program,District,Att. %,Score
+AUCA001,Aline Uwase,21,F,Information Systems,Gasabo,92,85
+AUCA002,Eric Niyonzima,23,M,Software Engineering,Kicukiro,88,78
+AUCA003,Diane Mukamana,20,F,Information Systems,Nyarugenge,95,91
+AUCA004,Jean Bosco Habimana,24,M,Networking,Gasabo,70,64
+AUCA005,Clarisse Ingabire,22,F,Accounting,Musanze,85,72
+AUCA006,Patrick Mugisha,21,M,Software Engineering,Huye,90,83
+AUCA007,Sandrine Umutoni,19,F,Information Systems,Kicukiro,97,94
+AUCA008,Emmanuel Nsengiyumva,25,M,Networking,Rubavu,65,58
+AUCA009,Grace Uwimana,20,F,Accounting,Gasabo,82,76
+AUCA010,Yves Ndayisenga,22,M,Software Engineering,Nyarugenge,78,69
+AUCA011,Josiane Mukeshimana,21,F,Information Systems,Muhanga,93,88
+AUCA012,Claude Iradukunda,23,M,Networking,Gasabo,75,66
+AUCA013,Beata Nyirahabimana,24,F,Accounting,Nyamagabe,89,81
+AUCA014,Olivier Twagirimana,20,M,Software Engineering,Kicukiro,96,90
+AUCA015,Chantal Uwera,22,F,Information Systems,Rusizi,68,61
+AUCA016,Fabrice Byiringiro,21,M,Networking,Musanze,84,74
+AUCA017,Solange Ishimwe,19,F,Software Engineering,Gasabo,91,87
+AUCA018,David Hakizimana,25,M,Accounting,Nyagatare,72,55
+AUCA019,Immaculee Uwamahoro,23,F,Information Systems,Kicukiro,87,79
+AUCA020,Samuel Rukundo,20,M,Networking,Nyarugenge,94,92
