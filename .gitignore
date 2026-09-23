@@ -1,0 +1,9 @@
+# Student data - contains real names, keep out of public repo
+week3_students_3.csv
+
+# Generated output
+week3_report.txt
+
+# Python cache
+__pycache__/
+*.pyc
