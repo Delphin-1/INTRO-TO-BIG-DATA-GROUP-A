@@ -1,0 +1,37 @@
+AUCA — Introduction to Big Data Analytics
+
+Week 5 Lab: Kigali Weather Analysis
+
+Student: Ntwari Prince
+ID: 20251SEN295
+Period: 1 September – 30 October 2026
+Records: 60 days
+
+ 1. Overview
+
+This lab analyzed 60 daily weather records from Kigali using **NumPy and Boolean masks.
+
+ 2. Key Results
+
+* Mean temperature: 24.00°C
+* Maximum temperature: 28.6°C
+* Minimum temperature: 19.3°C
+* Hot days (≥26°C): 18
+* Average on hot days: 27.11°C
+* Rainy days: 16
+* Total rainfall: 331.2 mm
+* Highest rainfall: 26.2 mm on 7 September 2026
+* Hot and rainy days: 5
+* Days with humidity ≥70%: 16
+
+ 3. Temperature Trend
+
+The first 30 days had an average temperature of 26.21°C, while the last 30 days averaged 21.78°C.
+
+This represents a decrease of approximately 4.43°C, showing that the recorded period became cooler over time.
+
+ 4. Conclusion
+
+The analysis shows that NumPy and Boolean masks can efficiently calculate weather statistics and identify specific conditions without using loops. The temperature decreased noticeably during these 60 records, although this result applies only to this dataset and does not represent Kigali's long-term climate.
+
+
